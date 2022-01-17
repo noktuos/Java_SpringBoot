@@ -1,4 +1,4 @@
-package mx.com.gm.Hola_SpringBoot;
+package mx.com.gm.Hola_MundoThymeleaf;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
