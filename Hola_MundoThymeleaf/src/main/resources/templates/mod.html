@@ -7,7 +7,8 @@
   <title>Agregar / Modificar Persona</title>
 </head>
 <body>
-<h1>Datos personales</h1>
+
+<header th:replace="layout/plantilla :: header"></header>
 <a th:href="@{/}">Inicio</a>
 <br>
 <form th:action="@{/guardar}" method="post" th:object="${persona}">
@@ -31,5 +32,6 @@
   <br>
   <input type="submit" name="guardar" value="guardar">
 </form>
+<footer th:replace="layout/plantilla :: footer"></footer>
 </body>
 </html>
